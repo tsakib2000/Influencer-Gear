@@ -67,32 +67,141 @@ gap: 8px;
 color: rgb(255, 255, 255);
 }
 .journey-img{
+    
     flex-direction: column;
     position: relative;
-    width: 100%;
+    width: 475px;
+height: 475px;
     }
 .journey-img-1{
     position: absolute;
     width: 100%;
 }
 /* journey style ends here */
+.sponsor-container{
+    max-width: 1110px;
+    height: 110px;
+    margin: 0 auto;
+    margin-top: 69px;
+    border-top: 1px solid   rgb(163, 156, 156) ;
+    border-bottom: 1px solid rgb(163, 156, 156) ;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+    padding: 20px 60px;
+}
+.sponsor-container img{
+    max-width: 100%;
+    height: auto;
 
+}
+/* journey section ends here  */
+/* popular section style */
+.popular-collection{
+    max-width: 1047px;
+    height: 1662px;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: max-content;
+    
+}
+.popular-title h3{
+  
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+}
+.popular-card-container{
+    height: 1662px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.popular-card{
+    max-width: 329px;
+    height: 476px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    flex-direction: column;
+    gap: 10px;
+}
+.popular-card h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.popular-card img {
+    width: 100%;
+}
+.stars{
+  align-items: center;
+  gap: 5px;
+}
+.popular-card p{
+    color: rgb(94, 99, 102);
+    margin-left: 5px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+#see{
+    
+height: 24px;
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 50px;
+}
+/* popular section style end here */
 
+/* Featured section */
 
+.Featured-main{
+    margin: 0 auto;
+    margin-top: 200px;
+     max-width: 1110px;
+     height: 270px;
+     justify-content: space-between;
+     gap: 96px;
+}
 
+.featured-img{
+    width: 100%;
+    border-radius: 7px;
+}
+.featured-des{
+    flex-direction: column;
+    gap: 16px;
+}
+.featured-des h1 {
+    font-size: 2.375rem;
+    font-weight: 700;
+}
+.featured-des p{
+    color: rgb(108, 108, 108);
+    font-size: 1rem;
+    font-weight: 700;
+}
+.featured-btn{
+    width: 155px;
+    height: 44px; 
+    background: rgb(224, 44, 109);
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    border: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+main{
+    height: fit-content;
+}
+footer{
+     height: 270px;
+}
 
 
 
@@ -110,8 +219,40 @@ color: rgb(255, 255, 255);
         flex-direction: column;
         
     }
+    .journey-img{
+        margin: 20px;
+    }
     .journey-titles{
         align-items: center;
         text-align: center;
+    }
+    .sponsor-container{
+      
+        grid-template-columns: repeat(4,1fr);
+        align-items: center;
+        gap: 20px ;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    #imgs-3{
+        margin-left:30px ;
+    }
+    .popular-card-container{
+       
+        grid-template-columns: repeat(1,1fr);
+       
+        
+    }
+    .popular-collection{
+       
+    }
+    .popular-card{
+        margin: 0 auto;
+        height: fit-content;
+    }
+    .Featured-main{
+        flex-direction: column-reverse;
     }
  }

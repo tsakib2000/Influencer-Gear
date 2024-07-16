@@ -8,6 +8,7 @@
 }
 :root{
     --font-color-1:rgb(58, 58, 58) ;
+    --border-color: rgb(136, 136, 136);
 }
 .display-flex{
     display: flex;
